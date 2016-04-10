@@ -23,11 +23,11 @@ def Run():
 	#array = np.random.rand(3,3)
 	#print(array)
 	counter = 0
-	price_open = np.zeros[10000]
+#	price_open = np.zeros[10000]
 	#price_close = []
 	reader = dqn_input.ReadCSV(DATA_PATH+DATA_FILE)
 	for row in reader:
-		price_open[counter] = row["Open"]
+#		price_open[counter] = row["Open"]
 		counter += 1
 		print("Step: %s" % (counter))
 	#print(array)
